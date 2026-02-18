@@ -11,10 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Tailwind Play CDN for immediate preview rendering -->
+    <!-- Tailwind Play CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      tailwind.config = {
+      window.tailwind.config = {
         theme: {
           extend: {
             fontFamily: {
@@ -40,17 +40,22 @@
         }
       }
     </script>
-    
-    <!-- Standard CSS fallbacks for non-tailwind components -->
-    <style type="text/tailwindcss">
-      @layer base {
-        body {
-          @apply bg-white text-slate-900 antialiased overflow-x-hidden;
-          font-family: 'Inter', sans-serif;
-        }
-        h1, h2, h3, h4, h5, h6 {
-          @apply font-heading;
-        }
+
+    <style type="text/css">
+      /* Fallback and base styles that don't rely on tailwind @layer to avoid build errors */
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #ffffff;
+        color: #0f172a;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      .scroll-smooth {
+        scroll-behavior: smooth;
       }
     </style>
 
