@@ -35,15 +35,15 @@ const Header: React.FC = () => {
         <nav className="hidden lg:flex items-center space-x-8">
           {NAV_LINKS.map((link) => (
             <a 
-              key={link.href} 
-              href={link.href}
+              key={link.label} 
+              href="#home"
               className="text-slate-600 hover:text-brand-600 font-medium transition-colors text-sm uppercase tracking-wider"
             >
               {link.label}
             </a>
           ))}
           <a 
-            href="#contact" 
+            href="#home" 
             className="bg-brand-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-brand-700 transition-all shadow-md shadow-brand-100 active:scale-95"
           >
             Parlons-en
@@ -70,8 +70,8 @@ const Header: React.FC = () => {
         <div className="px-6 py-8 space-y-4 flex flex-col items-center text-center">
           {NAV_LINKS.map((link) => (
             <a 
-              key={link.href} 
-              href={link.href}
+              key={link.label} 
+              href="#home"
               className="text-lg font-medium text-slate-800"
               onClick={() => setIsOpen(false)}
             >
@@ -79,7 +79,7 @@ const Header: React.FC = () => {
             </a>
           ))}
           <a 
-            href="#contact" 
+            href="#home" 
             className="w-full bg-brand-600 text-white px-6 py-3 rounded-xl font-bold"
             onClick={() => setIsOpen(false)}
           >

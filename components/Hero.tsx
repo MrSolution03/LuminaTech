@@ -30,10 +30,10 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <a href="#services" className="px-8 py-4 bg-brand-600 text-white rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-xl shadow-brand-200 text-center">
+            <a href="#home" className="px-8 py-4 bg-brand-600 text-white rounded-2xl font-bold text-lg hover:bg-brand-700 transition-all shadow-xl shadow-brand-200 text-center">
               Découvrir nos solutions
             </a>
-            <a href="#about" className="px-8 py-4 bg-white text-slate-800 border-2 border-slate-200 rounded-2xl font-bold text-lg hover:border-brand-600 hover:text-brand-600 transition-all text-center">
+            <a href="#home" className="px-8 py-4 bg-white text-slate-800 border-2 border-slate-200 rounded-2xl font-bold text-lg hover:border-brand-600 hover:text-brand-600 transition-all text-center">
               Qui sommes-nous ?
             </a>
           </div>

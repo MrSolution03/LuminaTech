@@ -4,10 +4,10 @@ import { Service, Advantage, Testimonial, NavLink } from './types';
 
 export const NAV_LINKS: NavLink[] = [
   { label: 'Accueil', href: '#home' },
-  { label: 'À Propos', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Pourquoi Nous', href: '#why-us' },
-  { label: 'Témoignages', href: '#testimonials' },
+  { label: 'À Propos', href: '#home' },
+  { label: 'Services', href: '#home' },
+  { label: 'Pourquoi Nous', href: '#home' },
+  { label: 'Témoignages', href: '#home' },
 ];
 
 export const SERVICES: Service[] = [

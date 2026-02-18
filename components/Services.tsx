@@ -25,7 +25,7 @@ const Services: React.FC = () => {
               <p className="text-slate-600 leading-relaxed mb-6">
                 {service.description}
               </p>
-              <a href="#contact" className="text-brand-600 font-bold flex items-center group-hover:translate-x-2 transition-transform">
+              <a href="#home" className="text-brand-600 font-bold flex items-center group-hover:translate-x-2 transition-transform">
                 En savoir plus 
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

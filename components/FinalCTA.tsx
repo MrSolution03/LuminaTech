@@ -18,12 +18,12 @@ const FinalCTA: React.FC = () => {
             Aucun engagement, juste de l'expertise.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
-            <button className="px-10 py-5 bg-white text-brand-600 rounded-2xl font-bold text-xl hover:shadow-2xl transition-all active:scale-95">
+            <a href="#home" className="px-10 py-5 bg-white text-brand-600 rounded-2xl font-bold text-xl hover:shadow-2xl transition-all active:scale-95 text-center">
               Démarrer mon projet
-            </button>
-            <button className="px-10 py-5 bg-brand-700 text-white border border-brand-500 rounded-2xl font-bold text-xl hover:bg-brand-800 transition-all">
+            </a>
+            <a href="#home" className="px-10 py-5 bg-brand-700 text-white border border-brand-500 rounded-2xl font-bold text-xl hover:bg-brand-800 transition-all text-center">
               Prendre rendez-vous
-            </button>
+            </a>
           </div>
           <p className="text-brand-200 text-sm">
             Réponse garantie en moins de 24 heures.

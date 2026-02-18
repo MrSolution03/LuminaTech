@@ -45,7 +45,7 @@ const WhyUs: React.FC = () => {
               </li>
             </ul>
             <div className="pt-4">
-               <a href="#contact" className="inline-block px-10 py-4 bg-slate-900 text-white font-bold rounded-2xl hover:bg-slate-800 transition-colors">
+               <a href="#home" className="inline-block px-10 py-4 bg-slate-900 text-white font-bold rounded-2xl hover:bg-slate-800 transition-colors">
                  Vérifiez notre disponibilité
                </a>
             </div>
