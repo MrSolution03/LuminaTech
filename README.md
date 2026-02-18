@@ -1,4 +1,3 @@
-
 # Lumina Digital - Agence de Transformation Numérique
 
 Ce projet est une application web React (TypeScript + Tailwind CSS) représentant le site professionnel d'une agence fictive de conseil numérique.
@@ -28,4 +27,5 @@ Ce projet est une application web React (TypeScript + Tailwind CSS) représentan
 
 **Nom** : Lumina Digital
 **Secteur** : Agence de transformation numérique (B2B).
+**Localisation** : Winnipeg, MB, Canada.
 **Cible** : PME et startups cherchant à moderniser leurs outils et augmenter leur ROI numérique.

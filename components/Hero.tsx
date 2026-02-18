@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -22,7 +21,7 @@ const Hero: React.FC = () => {
           
           <div className="space-y-4 max-w-xl">
             <p className="text-xl text-slate-600 leading-relaxed font-medium">
-              Nous sommes Lumina Digital. Nous accompagnons les entreprises ambitieuses dans leur mue technologique.
+              Nous sommes Lumina Digital. Nous accompagnons les entreprises ambitieuses dans leur mue technologique depuis Winnipeg.
             </p>
             <p className="text-lg text-slate-500 italic">
               "Notre mission : transformer vos idées en solutions numériques performantes qui boostent votre rentabilité."

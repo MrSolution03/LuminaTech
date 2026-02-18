@@ -17,7 +17,7 @@ const About: React.FC = () => {
               Fondée en 2018, Lumina Digital est née d'un constat simple : la technologie ne devrait jamais être un obstacle, mais un levier. 
             </p>
             <p className="text-slate-600 leading-relaxed">
-              Nous sommes un collectif de consultants, développeurs et créatifs basés au Canada, unis par la volonté d'offrir aux PME les mêmes outils que les grands groupes. Nous ne nous contentons pas de livrer du code ; nous bâtissons des partenariats durables.
+              Nous sommes un collectif de consultants, développeurs et créatifs basés à Winnipeg, unis par la volonté d'offrir aux PME les mêmes outils que les grands groupes. Nous ne nous contentons pas de livrer du code ; nous bâtissons des partenariats durables.
             </p>
             <div className="grid grid-cols-2 gap-8 pt-4">
               <div className="space-y-2">
